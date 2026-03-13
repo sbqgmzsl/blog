@@ -19,15 +19,15 @@ export const friendsPageConfig: FriendsPageConfig = {
 
 // 友链配置
 export const friendsConfig: FriendLink[] = [
-	{
-		title: "雪中小屋",
-		imgurl: "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Faf3770f2-1542-4e63-86fd-6979a11f2158%2F997f0ac5-4642-423a-bc61-89eefcfa2be4%2F%25E5%25A2%25A8%25E5%25B0%258F%25E8%258F%258A%25E5%25A4%25B4%25E5%2583%258F.jpg?table=collection&id=af45dc65-0834-4ffd-ae70-a2e1dd9bc573&t=af45dc65-0834-4ffd-ae70-a2e1dd9bc573&width=1080&cache=v2",
-		desc: "一个热爱技术的博主，喜欢分享各种有趣的技术文章和资源。",
-		siteurl: "https://blog.xueayi.site",
-		tags: ["Blog"],
-		weight: 10, // 权重，数字越大排序越靠前
-		enabled: true, // 是否启用
-	},
+	// {
+	// 	title: "雪中小屋",
+	// 	imgurl: "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Faf3770f2-1542-4e63-86fd-6979a11f2158%2F997f0ac5-4642-423a-bc61-89eefcfa2be4%2F%25E5%25A2%25A8%25E5%25B0%258F%25E8%258F%258A%25E5%25A4%25B4%25E5%2583%258F.jpg?table=collection&id=af45dc65-0834-4ffd-ae70-a2e1dd9bc573&t=af45dc65-0834-4ffd-ae70-a2e1dd9bc573&width=1080&cache=v2",
+	// 	desc: "一个热爱技术的博主，喜欢分享各种有趣的技术文章和资源。",
+	// 	siteurl: "https://blog.xueayi.site",
+	// 	tags: ["Blog"],
+	// 	weight: 10, // 权重，数字越大排序越靠前
+	// 	enabled: true, // 是否启用
+	// },
 	{
 		title: "XiaohuangWebsite",
 		imgurl: "https://youke.猪猪网络.cn/s1/2026/01/28/6979c5a6703c8.webp",

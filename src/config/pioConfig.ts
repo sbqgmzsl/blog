@@ -3,7 +3,7 @@ import type { Live2DModelConfig, SpineModelConfig } from "../types/config";
 // Spine 看板娘配置
 export const spineModelConfig: SpineModelConfig = {
 	// Spine 看板娘开关
-	enable: false,
+	enable: true,
 
 	// Spine模型配置
 	model: {
@@ -30,9 +30,9 @@ export const spineModelConfig: SpineModelConfig = {
 	// 尺寸配置
 	size: {
 		// 容器宽度
-		width: 135,
+		width: 270,
 		// 容器高度
-		height: 165,
+		height: 330,
 	},
 
 	// 交互配置

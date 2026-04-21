@@ -39,22 +39,31 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 桌面背景图片（支持单张或多张随机）
 		// desktop: "assets/images/DesktopWallpaper/d1.avif",
 		desktop: [
-			"assets/images/DesktopWallpaper/d1.avif",
-			"assets/images/DesktopWallpaper/d2.avif",
-			"assets/images/DesktopWallpaper/d3.avif",
-			"assets/images/DesktopWallpaper/d4.avif",
-			"assets/images/DesktopWallpaper/d5.avif",
-			"assets/images/DesktopWallpaper/d6.avif",
+			"assets/images/DesktopWallpaper/desk_banner1.jpg",
+			"assets/images/DesktopWallpaper/desk_banner2.jpg",
+			"assets/images/DesktopWallpaper/desk_banner3.jpg",
+			// "assets/images/DesktopWallpaper/d1.avif",
+			// "assets/images/DesktopWallpaper/d2.avif",
+			// "assets/images/DesktopWallpaper/d3.avif",
+			// "assets/images/DesktopWallpaper/d4.avif",
+			// "assets/images/DesktopWallpaper/d5.avif",
+			// "assets/images/DesktopWallpaper/d6.avif",
 		],
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
 		mobile: [
-			"assets/images/MobileWallpaper/m1.avif",
-			"assets/images/MobileWallpaper/m2.avif",
-			"assets/images/MobileWallpaper/m3.avif",
-			"assets/images/MobileWallpaper/m4.avif",
-			"assets/images/MobileWallpaper/m5.avif",
-			"assets/images/MobileWallpaper/m6.avif",
+			"assets/images/MobileWallpaper/mobile_banner1.jpg",
+			"assets/images/MobileWallpaper/mobile_banner2.jpg",
+			"assets/images/MobileWallpaper/mobile_banner3.jpg",
+			"assets/images/MobileWallpaper/mobile_banner4.jpg",
+			"assets/images/MobileWallpaper/mobile_banner5.jpg",
+			"assets/images/MobileWallpaper/mobile_banner6.jpg",
+			// "assets/images/MobileWallpaper/m1.avif",
+			// "assets/images/MobileWallpaper/m2.avif",
+			// "assets/images/MobileWallpaper/m3.avif",
+			// "assets/images/MobileWallpaper/m4.avif",
+			// "assets/images/MobileWallpaper/m5.avif",
+			// "assets/images/MobileWallpaper/m6.avif",
 		],
 	},
 	// Banner模式特有配置
@@ -102,9 +111,9 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		credit: {
 			enable: {
 				// 桌面端显示横幅图片来源文本
-				desktop: true,
+				desktop: false,
 				// 移动端显示横幅图片来源文本
-				mobile: true,
+				mobile: false,
 			},
 			text: {
 				// 桌面端要显示的来源文本
